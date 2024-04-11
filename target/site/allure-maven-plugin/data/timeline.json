@@ -1,0 +1,182 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Andrey",
+    "children" : [ {
+      "name" : "17268@Andrey.main(1)",
+      "children" : [ {
+        "name" : "Проверка активного раздела Соусы в конструкторе бургеров",
+        "uid" : "7788a2f15e810674",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875367488,
+          "stop" : 1712875371711,
+          "duration" : 4223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Выход из личного кабинета по кнопке «Выйти»",
+        "uid" : "b3f31310db308f91",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875396603,
+          "stop" : 1712875403447,
+          "duration" : 6844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход с главной страницы по клику на «Личный кабинет»",
+        "uid" : "af2558e49668b792",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875409393,
+          "stop" : 1712875414863,
+          "duration" : 5470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку «Личный кабинет»",
+        "uid" : "58e01a236cd939fe",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875386890,
+          "stop" : 1712875391701,
+          "duration" : 4811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка успешной авторизации пользователя",
+        "uid" : "4d7aafb6f072db71",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875424851,
+          "stop" : 1712875429178,
+          "duration" : 4327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка авторизации пользователя, когда пароль меньше 6 символов",
+        "uid" : "c145165d8b6e8a17",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875420753,
+          "stop" : 1712875424850,
+          "duration" : 4097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка активного раздела Булки в конструкторе бургеров",
+        "uid" : "1e69f1ea1d59938d",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875362234,
+          "stop" : 1712875367406,
+          "duration" : 5172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка активного раздела Начинки в конструкторе бургеров",
+        "uid" : "c32b8968e952dc6",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875371714,
+          "stop" : 1712875375773,
+          "duration" : 4059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход из личного кабинета на главную страницу через логотип Stellar Burgers",
+        "uid" : "e05f5d445e77e175",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875414865,
+          "stop" : 1712875420750,
+          "duration" : 5885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+        "uid" : "203b2a6ffeb374ef",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875382118,
+          "stop" : 1712875386887,
+          "duration" : 4769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку в форме регистрации",
+        "uid" : "d021ea6906aaf0b4",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875391703,
+          "stop" : 1712875396599,
+          "duration" : 4896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку в форме восстановления пароля",
+        "uid" : "6547bdfc627a8688",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875375784,
+          "stop" : 1712875382116,
+          "duration" : 6332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход из личного кабинета в конструктор",
+        "uid" : "fe3de8329d3bfd97",
+        "parentUid" : "3cb0aae3f554323b14a66e5646597140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712875403448,
+          "stop" : 1712875409391,
+          "duration" : 5943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cb0aae3f554323b14a66e5646597140"
+    } ],
+    "uid" : "6262ea2d80de45b612d926d6a5d40e72"
+  } ]
+}

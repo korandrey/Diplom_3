@@ -1,0 +1,96 @@
+{
+  "uid" : "c32b8968e952dc6",
+  "name" : "Проверка активного раздела Начинки в конструкторе бургеров",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.ConstructorTest.checkingTheActiveSectionFillings",
+  "historyId" : "1b64a967e49ca2e5fd108fe0e68b009d",
+  "time" : {
+    "start" : 1712875371714,
+    "stop" : 1712875375773,
+    "duration" : 4059
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Кликнуть на раздел конструктора Начинки",
+      "time" : {
+        "start" : 1712875375577,
+        "stop" : 1712875375627,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Проверить,что отображается активный раздел Начинки в конструкторе бургеров",
+      "time" : {
+        "start" : 1712875375627,
+        "stop" : 1712875375658,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.nomoreparties.stellarburgers.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "site.nomoreparties.stellarburgers.tests.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingTheActiveSectionFillings"
+  }, {
+    "name" : "suite",
+    "value" : "site.nomoreparties.stellarburgers.tests.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "17268@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c32b8968e952dc6.json",
+  "parameterValues" : [ ]
+}

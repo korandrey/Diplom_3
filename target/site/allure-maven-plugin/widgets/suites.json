@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "c0531e37af0ce01e51f18407e94e8010",
+    "name" : "site.nomoreparties.stellarburgers.tests.LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "291660b55dfd12aa8f7c2b0647050dc8",
+    "name" : "site.nomoreparties.stellarburgers.tests.PersonalAreaTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "5f5c7113c20ebdf405406a311a9d9dbe",
+    "name" : "site.nomoreparties.stellarburgers.tests.ConstructorTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "41deef6a4cb1cd76e2ecdd8760013cd0",
+    "name" : "site.nomoreparties.stellarburgers.tests.RegisterTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

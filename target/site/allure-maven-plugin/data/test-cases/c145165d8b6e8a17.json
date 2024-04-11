@@ -1,0 +1,120 @@
+{
+  "uid" : "c145165d8b6e8a17",
+  "name" : "Проверка авторизации пользователя, когда пароль меньше 6 символов",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.RegisterTest.checkingAuthorizationWhenThePasswordHasFewCharacters",
+  "historyId" : "29e92d255c414446166036866957d435",
+  "time" : {
+    "start" : 1712875420753,
+    "stop" : 1712875424850,
+    "duration" : 4097
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполнить поля Имя,Email,Пароль",
+      "time" : {
+        "start" : 1712875424483,
+        "stop" : 1712875424676,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Amal"
+      }, {
+        "name" : "email",
+        "value" : "georgine.funk@hotmail.com"
+      }, {
+        "name" : "password",
+        "value" : "12345"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Нажать на кнопку Зарегистрироваться, когда пароль указан не верно",
+      "time" : {
+        "start" : 1712875424677,
+        "stop" : 1712875424718,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Проверить,что есть текст 'Некорректный пароль'",
+      "time" : {
+        "start" : 1712875424719,
+        "stop" : 1712875424751,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.nomoreparties.stellarburgers.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "site.nomoreparties.stellarburgers.tests.RegisterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingAuthorizationWhenThePasswordHasFewCharacters"
+  }, {
+    "name" : "suite",
+    "value" : "site.nomoreparties.stellarburgers.tests.RegisterTest"
+  }, {
+    "name" : "host",
+    "value" : "Andrey"
+  }, {
+    "name" : "thread",
+    "value" : "17268@Andrey.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c145165d8b6e8a17.json",
+  "parameterValues" : [ ]
+}

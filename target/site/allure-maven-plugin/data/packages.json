@@ -1,0 +1,178 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "site.nomoreparties.stellarburgers.tests",
+    "children" : [ {
+      "name" : "checkingTheActiveSectionBun",
+      "uid" : "1e69f1ea1d59938d",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875362234,
+        "stop" : 1712875367406,
+        "duration" : 5172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkingTheActiveSectionSouses",
+      "uid" : "7788a2f15e810674",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875367488,
+        "stop" : 1712875371711,
+        "duration" : 4223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkingTheActiveSectionFillings",
+      "uid" : "c32b8968e952dc6",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875371714,
+        "stop" : 1712875375773,
+        "duration" : 4059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginViaTheButtonInThePasswordRecoveryForm",
+      "uid" : "6547bdfc627a8688",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875375784,
+        "stop" : 1712875382116,
+        "duration" : 6332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginUsingTheLogInToYourAccountButtonOnTheMainPage",
+      "uid" : "203b2a6ffeb374ef",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875382118,
+        "stop" : 1712875386887,
+        "duration" : 4769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginThroughThePersonalAccountButton",
+      "uid" : "58e01a236cd939fe",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875386890,
+        "stop" : 1712875391701,
+        "duration" : 4811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LoginViaTheButtonInTheRegistrationForm",
+      "uid" : "d021ea6906aaf0b4",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875391703,
+        "stop" : 1712875396599,
+        "duration" : 4896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logOutOfYourPersonalAccount",
+      "uid" : "b3f31310db308f91",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875396603,
+        "stop" : 1712875403447,
+        "duration" : 6844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "transitionFromYourPersonalAccountToTheDesigner",
+      "uid" : "fe3de8329d3bfd97",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875403448,
+        "stop" : 1712875409391,
+        "duration" : 5943
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GoFromTheMainPageByClickingOnPersonalAccount",
+      "uid" : "af2558e49668b792",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875409393,
+        "stop" : 1712875414863,
+        "duration" : 5470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "transitionFromYourPersonalAccountToTheMainPageThroughTheStellarBurgersLogo",
+      "uid" : "e05f5d445e77e175",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875414865,
+        "stop" : 1712875420750,
+        "duration" : 5885
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkingAuthorizationWhenThePasswordHasFewCharacters",
+      "uid" : "c145165d8b6e8a17",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875420753,
+        "stop" : 1712875424850,
+        "duration" : 4097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifyingSuccessfulUserAuthorization",
+      "uid" : "4d7aafb6f072db71",
+      "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712875424851,
+        "stop" : 1712875429178,
+        "duration" : 4327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "site.nomoreparties.stellarburgers.tests"
+  } ]
+}
