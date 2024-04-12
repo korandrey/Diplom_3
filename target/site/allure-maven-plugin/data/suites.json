@@ -1,0 +1,190 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "site.nomoreparties.stellarburgers.tests.ConstructorTest",
+    "children" : [ {
+      "name" : "Проверка активного раздела Булки в конструкторе бургеров",
+      "uid" : "5f649801cd8d10c2",
+      "parentUid" : "5f5c7113c20ebdf405406a311a9d9dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960720828,
+        "stop" : 1712960725831,
+        "duration" : 5003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка активного раздела Соусы в конструкторе бургеров",
+      "uid" : "b1656a6800052ed5",
+      "parentUid" : "5f5c7113c20ebdf405406a311a9d9dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960725900,
+        "stop" : 1712960730172,
+        "duration" : 4272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка активного раздела Начинки в конструкторе бургеров",
+      "uid" : "355135ff6ca17faa",
+      "parentUid" : "5f5c7113c20ebdf405406a311a9d9dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960730175,
+        "stop" : 1712960734708,
+        "duration" : 4533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5f5c7113c20ebdf405406a311a9d9dbe"
+  }, {
+    "name" : "site.nomoreparties.stellarburgers.tests.LoginTest",
+    "children" : [ {
+      "name" : "Вход через кнопку в форме восстановления пароля",
+      "uid" : "1a9384fa1aac2707",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960734718,
+        "stop" : 1712960741810,
+        "duration" : 7092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+      "uid" : "2d504b8b89b317d",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960741812,
+        "stop" : 1712960746876,
+        "duration" : 5064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход через кнопку «Личный кабинет»",
+      "uid" : "4480a284de18a38d",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960746880,
+        "stop" : 1712960753851,
+        "duration" : 6971
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход через кнопку в форме регистрации",
+      "uid" : "619d757d7fa19754",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960753853,
+        "stop" : 1712960758811,
+        "duration" : 4958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0531e37af0ce01e51f18407e94e8010"
+  }, {
+    "name" : "site.nomoreparties.stellarburgers.tests.PersonalAreaTest",
+    "children" : [ {
+      "name" : "Выход из личного кабинета по кнопке «Выйти»",
+      "uid" : "b4bd47cbedf733c0",
+      "parentUid" : "291660b55dfd12aa8f7c2b0647050dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960758814,
+        "stop" : 1712960765648,
+        "duration" : 6834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход из личного кабинета в конструктор",
+      "uid" : "a1dd2ee559eb9d16",
+      "parentUid" : "291660b55dfd12aa8f7c2b0647050dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960765650,
+        "stop" : 1712960771779,
+        "duration" : 6129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход с главной страницы по клику на «Личный кабинет»",
+      "uid" : "b1831c990bd5eb05",
+      "parentUid" : "291660b55dfd12aa8f7c2b0647050dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960771781,
+        "stop" : 1712960780899,
+        "duration" : 9118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход из личного кабинета на главную страницу через логотип Stellar Burgers",
+      "uid" : "f21ef158ce76203b",
+      "parentUid" : "291660b55dfd12aa8f7c2b0647050dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960780901,
+        "stop" : 1712960787098,
+        "duration" : 6197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "291660b55dfd12aa8f7c2b0647050dc8"
+  }, {
+    "name" : "site.nomoreparties.stellarburgers.tests.RegisterTest",
+    "children" : [ {
+      "name" : "Проверка авторизации пользователя, когда пароль меньше 6 символов",
+      "uid" : "a2163f7ed17b2ae2",
+      "parentUid" : "41deef6a4cb1cd76e2ecdd8760013cd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960787101,
+        "stop" : 1712960795076,
+        "duration" : 7975
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка успешной авторизации пользователя",
+      "uid" : "dce98b21bc42d1c1",
+      "parentUid" : "41deef6a4cb1cd76e2ecdd8760013cd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1712960795078,
+        "stop" : 1712960799266,
+        "duration" : 4188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "41deef6a4cb1cd76e2ecdd8760013cd0"
+  } ]
+}

@@ -1,0 +1,131 @@
+[ {
+  "uid" : "355135ff6ca17faa",
+  "name" : "Проверка активного раздела Начинки в конструкторе бургеров",
+  "time" : {
+    "start" : 1712960730175,
+    "stop" : 1712960734708,
+    "duration" : 4533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a9384fa1aac2707",
+  "name" : "Вход через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1712960734718,
+    "stop" : 1712960741810,
+    "duration" : 7092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f649801cd8d10c2",
+  "name" : "Проверка активного раздела Булки в конструкторе бургеров",
+  "time" : {
+    "start" : 1712960720828,
+    "stop" : 1712960725831,
+    "duration" : 5003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "619d757d7fa19754",
+  "name" : "Вход через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1712960753853,
+    "stop" : 1712960758811,
+    "duration" : 4958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d504b8b89b317d",
+  "name" : "Вход по кнопке «Войти в аккаунт» на главной",
+  "time" : {
+    "start" : 1712960741812,
+    "stop" : 1712960746876,
+    "duration" : 5064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1656a6800052ed5",
+  "name" : "Проверка активного раздела Соусы в конструкторе бургеров",
+  "time" : {
+    "start" : 1712960725900,
+    "stop" : 1712960730172,
+    "duration" : 4272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1831c990bd5eb05",
+  "name" : "Переход с главной страницы по клику на «Личный кабинет»",
+  "time" : {
+    "start" : 1712960771781,
+    "stop" : 1712960780899,
+    "duration" : 9118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4480a284de18a38d",
+  "name" : "Вход через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1712960746880,
+    "stop" : 1712960753851,
+    "duration" : 6971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2163f7ed17b2ae2",
+  "name" : "Проверка авторизации пользователя, когда пароль меньше 6 символов",
+  "time" : {
+    "start" : 1712960787101,
+    "stop" : 1712960795076,
+    "duration" : 7975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dce98b21bc42d1c1",
+  "name" : "Проверка успешной авторизации пользователя",
+  "time" : {
+    "start" : 1712960795078,
+    "stop" : 1712960799266,
+    "duration" : 4188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f21ef158ce76203b",
+  "name" : "Переход из личного кабинета на главную страницу через логотип Stellar Burgers",
+  "time" : {
+    "start" : 1712960780901,
+    "stop" : 1712960787098,
+    "duration" : 6197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1dd2ee559eb9d16",
+  "name" : "Переход из личного кабинета в конструктор",
+  "time" : {
+    "start" : 1712960765650,
+    "stop" : 1712960771779,
+    "duration" : 6129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4bd47cbedf733c0",
+  "name" : "Выход из личного кабинета по кнопке «Выйти»",
+  "time" : {
+    "start" : 1712960758814,
+    "stop" : 1712960765648,
+    "duration" : 6834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
