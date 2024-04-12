@@ -5,169 +5,169 @@
     "name" : "site.nomoreparties.stellarburgers.tests",
     "children" : [ {
       "name" : "checkingTheActiveSectionBun",
-      "uid" : "1e69f1ea1d59938d",
+      "uid" : "5f649801cd8d10c2",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875362234,
-        "stop" : 1712875367406,
-        "duration" : 5172
+        "start" : 1712960720828,
+        "stop" : 1712960725831,
+        "duration" : 5003
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkingTheActiveSectionSouses",
-      "uid" : "7788a2f15e810674",
+      "uid" : "b1656a6800052ed5",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875367488,
-        "stop" : 1712875371711,
-        "duration" : 4223
+        "start" : 1712960725900,
+        "stop" : 1712960730172,
+        "duration" : 4272
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkingTheActiveSectionFillings",
-      "uid" : "c32b8968e952dc6",
+      "uid" : "355135ff6ca17faa",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875371714,
-        "stop" : 1712875375773,
-        "duration" : 4059
+        "start" : 1712960730175,
+        "stop" : 1712960734708,
+        "duration" : 4533
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "LoginViaTheButtonInThePasswordRecoveryForm",
-      "uid" : "6547bdfc627a8688",
+      "uid" : "1a9384fa1aac2707",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875375784,
-        "stop" : 1712875382116,
-        "duration" : 6332
+        "start" : 1712960734718,
+        "stop" : 1712960741810,
+        "duration" : 7092
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "LoginUsingTheLogInToYourAccountButtonOnTheMainPage",
-      "uid" : "203b2a6ffeb374ef",
+      "uid" : "2d504b8b89b317d",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875382118,
-        "stop" : 1712875386887,
-        "duration" : 4769
+        "start" : 1712960741812,
+        "stop" : 1712960746876,
+        "duration" : 5064
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "loginThroughThePersonalAccountButton",
-      "uid" : "58e01a236cd939fe",
+      "uid" : "4480a284de18a38d",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875386890,
-        "stop" : 1712875391701,
-        "duration" : 4811
+        "start" : 1712960746880,
+        "stop" : 1712960753851,
+        "duration" : 6971
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "LoginViaTheButtonInTheRegistrationForm",
-      "uid" : "d021ea6906aaf0b4",
+      "uid" : "619d757d7fa19754",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875391703,
-        "stop" : 1712875396599,
-        "duration" : 4896
+        "start" : 1712960753853,
+        "stop" : 1712960758811,
+        "duration" : 4958
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "logOutOfYourPersonalAccount",
-      "uid" : "b3f31310db308f91",
+      "uid" : "b4bd47cbedf733c0",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875396603,
-        "stop" : 1712875403447,
-        "duration" : 6844
+        "start" : 1712960758814,
+        "stop" : 1712960765648,
+        "duration" : 6834
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "transitionFromYourPersonalAccountToTheDesigner",
-      "uid" : "fe3de8329d3bfd97",
+      "uid" : "a1dd2ee559eb9d16",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875403448,
-        "stop" : 1712875409391,
-        "duration" : 5943
+        "start" : 1712960765650,
+        "stop" : 1712960771779,
+        "duration" : 6129
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "GoFromTheMainPageByClickingOnPersonalAccount",
-      "uid" : "af2558e49668b792",
+      "uid" : "b1831c990bd5eb05",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875409393,
-        "stop" : 1712875414863,
-        "duration" : 5470
+        "start" : 1712960771781,
+        "stop" : 1712960780899,
+        "duration" : 9118
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "transitionFromYourPersonalAccountToTheMainPageThroughTheStellarBurgersLogo",
-      "uid" : "e05f5d445e77e175",
+      "uid" : "f21ef158ce76203b",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875414865,
-        "stop" : 1712875420750,
-        "duration" : 5885
+        "start" : 1712960780901,
+        "stop" : 1712960787098,
+        "duration" : 6197
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkingAuthorizationWhenThePasswordHasFewCharacters",
-      "uid" : "c145165d8b6e8a17",
+      "uid" : "a2163f7ed17b2ae2",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875420753,
-        "stop" : 1712875424850,
-        "duration" : 4097
+        "start" : 1712960787101,
+        "stop" : 1712960795076,
+        "duration" : 7975
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verifyingSuccessfulUserAuthorization",
-      "uid" : "4d7aafb6f072db71",
+      "uid" : "dce98b21bc42d1c1",
       "parentUid" : "d1864bbd20799050d4b8a71d7413611b",
       "status" : "passed",
       "time" : {
-        "start" : 1712875424851,
-        "stop" : 1712875429178,
-        "duration" : 4327
+        "start" : 1712960795078,
+        "stop" : 1712960799266,
+        "duration" : 4188
       },
       "flaky" : false,
       "newFailed" : false,

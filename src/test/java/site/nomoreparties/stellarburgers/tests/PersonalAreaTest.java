@@ -1,13 +1,10 @@
 package site.nomoreparties.stellarburgers.tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import site.nomoreparties.stellarburgers.api.User;
 import site.nomoreparties.stellarburgers.api.UserActions;
 import site.nomoreparties.stellarburgers.page.LoginPage;
@@ -15,20 +12,17 @@ import site.nomoreparties.stellarburgers.utils.DataGeneration;
 
 import static org.junit.Assert.assertTrue;
 
-public class PersonalAreaTest {
-    protected WebDriver driver;
-
+public class PersonalAreaTest extends BaseTest {
     private UserActions userActions;
     private User user;
     private String token;
 
     @Before
-    public void SetUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+    public void setUp() {
+        super.setUp();
         userActions = new UserActions();
         user = DataGeneration.generatingDataToCreateValidUser();
-        driver.get(LoginPage.URL_LOGIN);
+        super.getDriver().get(LoginPage.URL_LOGIN);
 
         //Создаем через API юзера и запоминаем токен
         ValidatableResponse response = userActions.create(user);
@@ -42,7 +36,7 @@ public class PersonalAreaTest {
     @After
     public void tearDown() {
         // Закрытие браузера
-        driver.quit();
+        super.tearDown();
         userActions.delete(token).statusCode(202);
     }
 
@@ -51,7 +45,7 @@ public class PersonalAreaTest {
     @Test
     @DisplayName("Переход с главной страницы по клику на «Личный кабинет»")
     public void GoFromTheMainPageByClickingOnPersonalAccount() {
-        boolean goToYourPersonalAccount = new LoginPage(driver)
+        boolean goToYourPersonalAccount = new LoginPage(super.getDriver())
                 .fillOutTheLoginFields(user.getEmail(), user.getPassword())
                 .clickOnButtonLogin()
                 .pressTheButtonPersonalAreaAuth()
@@ -62,7 +56,7 @@ public class PersonalAreaTest {
     @Test
     @DisplayName("Переход из личного кабинета в конструктор")
     public void transitionFromYourPersonalAccountToTheDesigner() {
-        boolean goToConstructor = new LoginPage(driver)
+        boolean goToConstructor = new LoginPage(super.getDriver())
                 .fillOutTheLoginFields(user.getEmail(), user.getPassword())
                 .clickOnButtonLogin()
                 .pressTheButtonPersonalAreaAuth()
@@ -74,7 +68,7 @@ public class PersonalAreaTest {
     @Test
     @DisplayName("Переход из личного кабинета на главную страницу через логотип Stellar Burgers")
     public void transitionFromYourPersonalAccountToTheMainPageThroughTheStellarBurgersLogo() {
-        boolean goToMainPage = new LoginPage(driver)
+        boolean goToMainPage = new LoginPage(super.getDriver())
                 .fillOutTheLoginFields(user.getEmail(), user.getPassword())
                 .clickOnButtonLogin()
                 .pressTheButtonPersonalAreaAuth()
@@ -86,7 +80,7 @@ public class PersonalAreaTest {
     @Test
     @DisplayName("Выход из личного кабинета по кнопке «Выйти»")
     public void logOutOfYourPersonalAccount() {
-        boolean logOut = new LoginPage(driver)
+        boolean logOut = new LoginPage(super.getDriver())
                 .fillOutTheLoginFields(user.getEmail(), user.getPassword())
                 .clickOnButtonLogin()
                 .pressTheButtonPersonalAreaAuth()
